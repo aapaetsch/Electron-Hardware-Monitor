@@ -78,8 +78,8 @@ export default class App extends Component {
                         <Button id="toggleMonitorBtn" type="primary" shape="round" onClick={async () => this._toggleWatches()}>
                             {this.state.monitorBtnTxt}
                         </Button>
-                        <div id="CpuFrequencyWrapper" style={{'font-size': 'small'}}></div>
-                        <div id="CpuUsageWrapper" style={{'font-size': 'small'}}>
+                        <div id="CpuFrequencyWrapper" style={{'fontSize': 'small'}}></div>
+                        <div id="CpuUsageWrapper" style={{'fontSize': 'small'}}>
                         </div>
                         <div id="RamUsageWrapper">
                             <span>

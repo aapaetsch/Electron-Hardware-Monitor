@@ -7,6 +7,10 @@ const { app, BrowserWindow, ipcMain } = require('electron');
 const getPort = require('get-port');
 const isDevMode = require('electron-is-dev');
 
+// Modules to create node js server
+const server = require('./NodeServer/server');
+
+
 // Function to shutdown Electron & Flask
 const shutdown = (port)=> {
   get(`http://localhost:${port}/quit`)

@@ -34,7 +34,7 @@ const Titlebar = () => {
       <div>
         <img src={ favicon } alt='favicon' />
         {/* <span id='electron-window-title-text'>{ document.title }</span> */}
-        <span style={{"font-color": "red"}}>Electron sysInfo</span>
+        <span style={{"fontColor": "red"}}>Electron sysInfo</span>
       </div>
 
       <div id='electron-window-title-buttons'>
